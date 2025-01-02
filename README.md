@@ -6,10 +6,19 @@
 > - npm install -g volta
 > - npm install
 
-#### Check the installation version
+#### Check installation version
 > - node -v
 __If the node version is higher than v18.xx.x, install the following package__
 > - nvm i hydrogen
 > - nvm use 18 --default
 
 The file __.nvmrc__ is created in the root directory of the project to specify the node version to be used.
+
+#### HELP
+> __If npm doesn't work, use the following guide__
+> Open the PowerShell with Administrator and use the following command:
+> - Get-ExecutionPolicy -List
+> - Set-ExecutionPolicy RemoteSigned
+> _Press Y (or S ) to confirm the change._
+> - Set-ExecutionPolicy Unrestricted
+> _Press Y (or S ) to confirm the change._
