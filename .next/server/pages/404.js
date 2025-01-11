@@ -1,4 +1,3 @@
-"use strict";
 /*
  * ATTENTION: An "eval-source-map" devtool has been used.
  * This devtool is neither made for production nor for readable output files.
@@ -13,13 +12,46 @@ exports.id = "pages/404";
 exports.ids = ["pages/404"];
 exports.modules = {
 
+/***/ "./pages/404.module.css":
+/*!******************************!*\
+  !*** ./pages/404.module.css ***!
+  \******************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"container\": \"__404_container___x_zY\",\n\t\"title\": \"__404_title__KF7DF\",\n\t\"description\": \"__404_description__3_vT_\",\n\t\"button\": \"__404_button__JSDAD\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy80MDQubW9kdWxlLmNzcy5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3RyaWJvLXRlY2hzLW5ld3MvLi9wYWdlcy80MDQubW9kdWxlLmNzcz9hMTczIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImNvbnRhaW5lclwiOiBcIl9fNDA0X2NvbnRhaW5lcl9fX3hfellcIixcblx0XCJ0aXRsZVwiOiBcIl9fNDA0X3RpdGxlX19LRjdERlwiLFxuXHRcImRlc2NyaXB0aW9uXCI6IFwiX180MDRfZGVzY3JpcHRpb25fXzNfdlRfXCIsXG5cdFwiYnV0dG9uXCI6IFwiX180MDRfYnV0dG9uX19KU0RBRFwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/404.module.css\n");
+
+/***/ }),
+
 /***/ "./pages/404.js":
 /*!**********************!*\
   !*** ./pages/404.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n        children: \"ERRO 404 - ARRUMA ESSA MERDA\"\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\manas\\\\OneDrive\\\\Documentos\\\\00Curso\\\\Tribo-Techs-News\\\\pages\\\\404.js\",\n        lineNumber: 2,\n        columnNumber: 12\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy80MDQuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBLFNBQVNBLE9BQU87SUFDWixxQkFBTyw4REFBQ0M7a0JBQUc7Ozs7OztBQUNmO0FBRUEsaUVBQWVELElBQUlBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90cmliby10ZWNocy1uZXdzLy4vcGFnZXMvNDA0LmpzPzNlZDkiXSwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gSG9tZSgpIHtcclxuICAgIHJldHVybiA8aDE+RVJSTyA0MDQgLSBBUlJVTUEgRVNTQSBNRVJEQTwvaDE+XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhvbWU7Il0sIm5hbWVzIjpbIkhvbWUiLCJoMSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/404.js\n");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _404_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./404.module.css */ \"./pages/404.module.css\");\n/* harmony import */ var _404_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_404_module_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction Custom404() {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_404_module_css__WEBPACK_IMPORTED_MODULE_3___default().container),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                className: (_404_module_css__WEBPACK_IMPORTED_MODULE_3___default().title),\n                children: \"404 - P\\xe1gina N\\xe3o Encontrada\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\manas\\\\OneDrive\\\\Documentos\\\\00Curso\\\\Tribo-Techs-News\\\\pages\\\\404.js\",\n                lineNumber: 10,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                className: (_404_module_css__WEBPACK_IMPORTED_MODULE_3___default().description),\n                children: \"Desculpe, a p\\xe1gina que voc\\xea est\\xe1 procurando n\\xe3o existe.\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\manas\\\\OneDrive\\\\Documentos\\\\00Curso\\\\Tribo-Techs-News\\\\pages\\\\404.js\",\n                lineNumber: 11,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                className: (_404_module_css__WEBPACK_IMPORTED_MODULE_3___default().button),\n                onClick: ()=>router.push(\"/\"),\n                children: \"Voltar para a Home\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\manas\\\\OneDrive\\\\Documentos\\\\00Curso\\\\Tribo-Techs-News\\\\pages\\\\404.js\",\n                lineNumber: 14,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\manas\\\\OneDrive\\\\Documentos\\\\00Curso\\\\Tribo-Techs-News\\\\pages\\\\404.js\",\n        lineNumber: 9,\n        columnNumber: 9\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Custom404);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy80MDQuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUEwQjtBQUNjO0FBQ0Y7QUFFdEMsU0FBU0csWUFBWTtJQUNqQixNQUFNQyxTQUFTSCxzREFBU0E7SUFFeEIscUJBQ0ksOERBQUNJO1FBQUlDLFdBQVdKLGtFQUFnQjs7MEJBQzVCLDhEQUFDTTtnQkFBR0YsV0FBV0osOERBQVk7MEJBQUU7Ozs7OzswQkFDN0IsOERBQUNRO2dCQUFFSixXQUFXSixvRUFBa0I7MEJBQUU7Ozs7OzswQkFHbEMsOERBQUNVO2dCQUFPTixXQUFXSiwrREFBYTtnQkFBRVcsU0FBUyxJQUFNVCxPQUFPVSxJQUFJLENBQUM7MEJBQU07Ozs7Ozs7Ozs7OztBQUsvRTtBQUVBLGlFQUFlWCxTQUFTQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdHJpYm8tdGVjaHMtbmV3cy8uL3BhZ2VzLzQwNC5qcz8zZWQ5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gJ25leHQvcm91dGVyJztcclxuaW1wb3J0IHN0eWxlcyBmcm9tICcuLzQwNC5tb2R1bGUuY3NzJztcclxuXHJcbmZ1bmN0aW9uIEN1c3RvbTQwNCgpIHtcclxuICAgIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpO1xyXG5cclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5jb250YWluZXJ9PlxyXG4gICAgICAgICAgICA8aDEgY2xhc3NOYW1lPXtzdHlsZXMudGl0bGV9PjQwNCAtIFDDoWdpbmEgTsOjbyBFbmNvbnRyYWRhPC9oMT5cclxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPXtzdHlsZXMuZGVzY3JpcHRpb259PlxyXG4gICAgICAgICAgICAgICAgRGVzY3VscGUsIGEgcMOhZ2luYSBxdWUgdm9jw6ogZXN0w6EgcHJvY3VyYW5kbyBuw6NvIGV4aXN0ZS5cclxuICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT17c3R5bGVzLmJ1dHRvbn0gb25DbGljaz17KCkgPT4gcm91dGVyLnB1c2goJy8nKX0+XHJcbiAgICAgICAgICAgICAgICBWb2x0YXIgcGFyYSBhIEhvbWVcclxuICAgICAgICAgICAgPC9idXR0b24+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApO1xyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBDdXN0b200MDQ7Il0sIm5hbWVzIjpbIlJlYWN0IiwidXNlUm91dGVyIiwic3R5bGVzIiwiQ3VzdG9tNDA0Iiwicm91dGVyIiwiZGl2IiwiY2xhc3NOYW1lIiwiY29udGFpbmVyIiwiaDEiLCJ0aXRsZSIsInAiLCJkZXNjcmlwdGlvbiIsImJ1dHRvbiIsIm9uQ2xpY2siLCJwdXNoIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/404.js\n");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react");
 
 /***/ }),
 
@@ -29,6 +61,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
