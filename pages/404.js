@@ -1,8 +1,7 @@
 import React from 'react';
-import { useRouter } from 'next/router';
 import styles from './404.module.css';
 
-function Home() {
+function erro404() {
   return (
     <div className={styles.error404}>
       <div className={styles.container}>
@@ -17,4 +16,4 @@ function Home() {
   );
 }
 
-export default Custom404;
+export default erro404;
