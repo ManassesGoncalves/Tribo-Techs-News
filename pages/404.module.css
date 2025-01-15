@@ -1,0 +1,59 @@
+.error404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    
+  }
+  
+  .error404 h1 {
+    font-size: 108px;
+    font-weight: bold;
+    color: #333;
+    margin: auto;
+  }
+
+  .error404 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin: auto;
+  }
+  
+  .error404 p {
+    font-size: 18px;
+    color: #666;
+    margin: auto;
+  }
+  
+  .error404 .btn-voltar {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: auto;
+  }
+  
+  .error404 .btn-voltar:hover {
+    background-color: #23527c;
+  }
+  
+  .error404 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+  }
